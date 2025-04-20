@@ -1,0 +1,44 @@
+# Node.js
+tasktrack-backend/node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build directories
+build/
+dist/
+out/
+coverage/
+
+# Docker
+**/*.log
+**/*.dockerignore
+**/Dockerfile
+.docker-compose.yml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Optional: If you use TypeScript
+*.tsbuildinfo
+
+# Optional: Ignore logs and other artifacts from testing
+test-results/
+
